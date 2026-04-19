@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Ibrahim Mohamed Omran | AI Engineer</title>
+    <meta name="description" content="Portfolio of Sara Ibrahim Mohamed Omran, AI Engineer specializing in LLMs, AI Agents, and RAG Systems.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="bg-glow-2"></div>
+    <div class="bg-glow-3"></div>
+
+    <div class="site-wrapper">
+        <header class="navbar">
+            <div class="logo">SMO</div>
+            <div class="controls">
+
+                <button id="theme-toggle" class="btn" aria-label="Toggle Theme">
+                    <span class="icon light-icon" data-i18n="modeLight">Light</span>
+                </button>
+                <button id="lang-toggle" class="btn" aria-label="Toggle Language">
+                    <span class="icon">عربي</span>
+                </button>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section card">
+                <h1 class="hero-title" data-i18n="name">Sara Ibrahim Mohamed Omran</h1>
+                <h2 class="hero-subtitle" data-i18n="title">AI Engineer | LLMs • AI Agents • RAG Systems • AI Evaluation</h2>
+                <div class="contact-info">
+                    <span class="badge">📍 <span data-i18n="location">Giza, Egypt</span></span>
+                    <span class="badge">📞 <a href="tel:+201120846102" class="link">+20 1120846102</a></span>
+                    <span class="badge">✉️ <a href="mailto:saraomran433@gmail.com" class="link">saraomran433@gmail.com</a></span>
+                    <span class="badge">🔗 <a href="https://linkedin.com/in/sara-ibrahim-omran" target="_blank" class="link">LinkedIn</a></span>
+                    <span class="badge">🔗 <a href="https://github.com/sara692" target="_blank" class="link">GitHub</a></span>
+                </div>
+            </section>
+
+            <!-- Summary Section -->
+            <section id="summary" class="card">
+                <div class="card-header" data-i18n="summaryTitle">Professional Summary</div>
+                <div class="card-body">
+                    <p class="mb-2" data-i18n="summaryText1">AI Engineer specializing in Large Language Models (LLMs), AI Agents, and RAG systems, with strong experience in designing, evaluating, and optimizing multi-step autonomous workflows. Skilled in analyzing agent trajectories, identifying failure modes, and improving reasoning reliability through structured evaluation and debugging.</p>
+                    <p data-i18n="summaryText2">Brings 3+ years of experience in telecom operations at Huawei, applying system-level thinking, root-cause analysis, and real-time troubleshooting to production environments. Passionate about building and refining intelligent systems that are reliable, safe, and scalable.</p>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section id="skills" class="card">
+                <div class="card-header" data-i18n="skillsTitle">Technical Skills</div>
+                <div class="card-body skills-container">
+                    <div class="skill-category">
+                        <h3 class="skill-title" data-i18n="skillAI">AI & LLMs</h3>
+                        <div class="skill-tags">
+                            <span class="badge primary">LLMs</span>
+                            <span class="badge primary">Prompt Engineering</span>
+                            <span class="badge primary">RAG Systems</span>
+                            <span class="badge primary">Semantic Search</span>
+                            <span class="badge primary">Embeddings</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-title" data-i18n="skillAgents">AI Agents & Orchestration</h3>
+                        <div class="skill-tags">
+                            <span class="badge secondary">LangChain</span>
+                            <span class="badge secondary">LangGraph</span>
+                            <span class="badge secondary">AutoGen</span>
+                            <span class="badge secondary">CrewAI</span>
+                            <span class="badge secondary">N8N</span>
+                            <span class="badge secondary">Multi-step Reasoning</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-title" data-i18n="skillEval">AI Evaluation & Safety</h3>
+                        <div class="skill-tags">
+                            <span class="badge primary">LLM Evaluation</span>
+                            <span class="badge primary">Output Validation</span>
+                            <span class="badge primary">Failure Analysis</span>
+                            <span class="badge primary">Prompt Robustness</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-title" data-i18n="skillML">Machine Learning & Data Science</h3>
+                        <div class="skill-tags">
+                            <span class="badge secondary">Supervised & Unsupervised Learning</span>
+                            <span class="badge secondary">Feature Engineering</span>
+                            <span class="badge secondary">Hyperparameter Tuning</span>
+                            <span class="badge secondary">Python</span>
+                            <span class="badge secondary">SQL</span>
+                            <span class="badge secondary">Pandas</span>
+                            <span class="badge secondary">NumPy</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-title" data-i18n="skillBackend">Backend & Systems</h3>
+                        <div class="skill-tags">
+                            <span class="badge primary">FastAPI</span>
+                            <span class="badge primary">REST APIs</span>
+                            <span class="badge primary">PostgreSQL</span>
+                            <span class="badge primary">pgvector</span>
+                            <span class="badge primary">API Integration</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="card">
+                <div class="card-header" data-i18n="projectsTitle">Projects</div>
+                <div class="card-body">
+                    <div class="filter-controls">
+                        <button class="btn filter-btn active" data-filter="all" data-i18n="filterAll">All</button>
+                        <button class="btn filter-btn" data-filter="ai" data-i18n="filterAI">AI Agents & LLMs</button>
+                        <button class="btn filter-btn" data-filter="ml" data-i18n="filterML">Machine & Deep Learning</button>
+                        <button class="btn filter-btn" data-filter="data" data-i18n="filterData">Data Analysis & BI</button>
+                    </div>
+                    <div id="projects-grid" class="projects-grid">
+                        <!-- Projects injected by JS -->
+                    </div>
+                </div>
+            </section>
+
+            <div class="grid-2-col">
+                <!-- Professional Experience Section -->
+                <section id="experience" class="card">
+                    <div class="card-header" data-i18n="expTitle">Professional Experience</div>
+                    <div class="card-body timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Aug 2023 – Present</div>
+                            <h3 class="timeline-title font-bold" data-i18n="exp1Title">RAN Back Office Engineer</h3>
+                            <div class="timeline-subtitle">Huawei GNOC, Cairo</div>
+                            <ul>
+                                <li data-i18n="exp1Task1">Applied data-driven troubleshooting to improve system reliability and uptime</li>
+                                <li data-i18n="exp1Task2">Performed root-cause analysis for complex system failures</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">May 2022 – Aug 2023</div>
+                            <h3 class="timeline-title font-bold" data-i18n="exp2Title">RAN Front Office Engineer</h3>
+                            <div class="timeline-subtitle">Huawei GNOC, Cairo</div>
+                            <ul>
+                                <li data-i18n="exp2Task1">Monitored network systems and performed initial fault diagnosis</li>
+                                <li data-i18n="exp2Task2">Supported incident resolution and escalation processes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="flex-col">
+                    <!-- Education Section -->
+                    <section id="education" class="card">
+                        <div class="card-header" data-i18n="eduTitle">Education</div>
+                        <div class="card-body">
+                            <h3 class="font-bold text-primary mb-2" data-i18n="eduDegree">Bachelor of Engineering in Electronics & Communications</h3>
+                            <div class="text-muted" data-i18n="eduUni">Cairo University | 2016 – 2021</div>
+                            <div class="mt-4 flex-col text-sm">
+                                <span class="badge primary" data-i18n="eduProj">Graduation Project: Excellent</span>
+                                <span class="badge secondary mt-2" data-i18n="eduGrade">Overall Grade: Good</span>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Certifications Section -->
+                    <section id="certifications" class="card">
+                        <div class="card-header" data-i18n="certTitle">Training & Certifications</div>
+                        <div class="card-body">
+                            <ul class="cert-list">
+                                <li data-i18n="cert1">Generative & Agentic AI Program – DEPI (ongoing)</li>
+                                <li data-i18n="cert2">LLM Engineering, RAG, & AI Agents Masterclass (2026)</li>
+                                <li data-i18n="cert3">Data Science Program – ALX (2025 – 2026)</li>
+                                <li data-i18n="cert4">Data Analysis (SQL, Power BI, Google Sheets) – ALX(2025)</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <footer class="mt-4 text-sm text-muted text-center" style="padding: 2rem 0;">
+                <div data-i18n="footerText">© 2026 Sara Ibrahim Mohamed Omran. All Rights Reserved.</div>
+            </footer>
+        </main>
+    </div>
+    
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
